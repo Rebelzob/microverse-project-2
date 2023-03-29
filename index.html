@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut maxime nemo expedita quisquam quos rerum incidunt commodi molestiae aperiam sunt dolores, nostrum blanditiis similique, assumenda minus atque in officiis mollitia.</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div>
+                <label for="name" id="name-label">Full Name</label>
+                <input id="name" type="text" placeholder="Enter here your Full Name" required>  
+            </div>
+            <div>
+                <label for="email" id="email-label">Email</label>
+                <input id="email" type="email" placeholder="Enter here your Email" required>
+            </div>
+            <div>
+                <label for="number" id="number-label">Phone Number</label>
+                <input id="number" type="number" placeholder="Enter here your Phone Number" min="1000000" max="99999999">
+            </div>
+            <div>
+                <label for="gender" id="gender-label">Gender</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div>
+                <p>Level of education</p>
+                <div>
+                    <label>
+                    <input type="radio" name="education" value="Bachelor">
+                    Bachelor
+                    </label>
+                    <label>
+                    <input type="radio" name="education" value="High School">
+                    High School
+                    </label>
+                    <label>
+                    <input type="radio" name="education" value="not-say">
+                    Prefer not to say
+                    </label>
+                </div>
+                <div>
+                    <p>Hoobies</p>
+                    <input type="checkbox" name="prefer" value="Writing">
+                    <input type="checkbox" name="prefer" value="Gaming">
+                    <input type="checkbox" name="prefer" value="Music">
+                    <input type="checkbox" name="prefer" value="Sports">
+                    <input type="checkbox" name="prefer" value="Outdoors">
+                    <input type="checkbox" name="prefer" value="Other">
+                </div>
+            </div>
+            <div>
+                <p>Comments</p>
+                <textarea name="" id="" cols="25" rows="5"></textarea>
+            </div>
+            <div>
+                <button id="submit">Submit</button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
